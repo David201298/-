@@ -1,0 +1,18 @@
+﻿<Page x:Class="ТурОператор.First"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" d:DesignWidth="285.075"
+	Title="First" Loaded="Page_Loaded" ShowsNavigationUI="False" Height="222.911" UseLayoutRounding="False">
+
+    <Grid>
+        <Label Margin="10" HorizontalContentAlignment="Center">Выберите страну</Label>
+        <ComboBox  Height="26" Name="ComboBox_Country" Margin="22,48,32,149"/>
+        <Button  Height="26" Width="90" Content="Далее"  Click="Button_Click_2" Margin="22,99,173,98" />
+        <Button  Height="26" Width="100" Content="Добавить страну" Click="Button_Click" Loaded="Button_Loaded" Margin="153,99,32,98"/>
+        <Button Height="26" Click="Button_Click_1" Margin="22,145,32,52" >Закрыть и сохранить изменения</Button>
+        <Label Margin="22,176,117,21"  Height="26" Content="" Name="Label_error" />
+
+    </Grid>
+</Page>

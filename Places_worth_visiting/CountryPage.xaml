@@ -1,0 +1,17 @@
+﻿<Page x:Class="ТурОператор.CountryPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="155.224" d:DesignWidth="297.015"
+	Title="CountryPage">
+
+    <StackPanel>
+        <Label Padding="10" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18">Введите название страны</Label>
+        <TextBox Name="TextBox_Name" Padding="4" VerticalAlignment="Center"></TextBox>
+        <Button VerticalAlignment="Center" Margin="10" FontSize="16" Height="30" Click="Button_Click">Добавить</Button>
+        <Label Name="Label_error"></Label>
+    </StackPanel>
+</Page>
+
